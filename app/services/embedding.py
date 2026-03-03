@@ -9,3 +9,4 @@ def get_embedding(text:str):
     except Exception as e:
         print(f"Error generating embedding: {str(e)}")
         return None
+
